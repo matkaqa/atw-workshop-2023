@@ -1,0 +1,25 @@
+{
+  "name": "atw-workshop-2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "test:ci": "npx cypress-cloud"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwyrodek/atw-workshop-2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwyrodek/atw-workshop-2023/issues"
+  },
+  "homepage": "https://github.com/mwyrodek/atw-workshop-2023#readme",
+  "dependencies": {
+    "cypress": "^12.12.0",
+    "cypress-cloud": "^1.7.4"
+  }
+}
