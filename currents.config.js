@@ -1,5 +1,5 @@
 module.exports = {
-   // projectId: "Ij0RfK", // Project Id obtained from https://app.currents.dev or Sorry Cypress
+   projectId: "uYcTMn", // Project Id obtained from https://app.currents.dev or Sorry Cypress
    // recordKey: "XXXXXXX", // Record key obtained from https://app.currents.dev, any value for Sorry Cypress
     cloudServiceUrl: "https://cy.currents.dev", // Sorry Cypress users - the director service URL
 /*
