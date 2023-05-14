@@ -10,4 +10,35 @@ describe('Search Functionality', () => {
         // check if product is added to wishlist
     })
 
+    it('Filter search by color', () => {
+      // search for Cats
+      // select orange color
+      // displayed work count should be smaller
+      // orange color should be selected
+    })
+
+    it('Filter search by orientation', () => {
+        // search for Cats
+        // select vertical orientation
+        // displayed work count should be smaller
+        // vertical orientation should be selected
+    })
+
+    it("Filter search by Type", () => {
+        // search for Cats
+        // select illustration type
+        // displayed work count should be smaller
+        // illustration type should be selected
+    });
+
+    it("search bottom", () => {
+      //search for cats
+      //scroll down to bottom
+      //page counter should be displayed
+      //related searches should be displayed
+    })
+
+    //not tested
+    // forbbiden phrases - for example pokemon should retrun no results and display message to check offical brandshops and this might intres you section
+
 })

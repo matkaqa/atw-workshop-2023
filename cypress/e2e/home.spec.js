@@ -54,5 +54,4 @@ it('Categories', () => {
         // click on heart
         // check if product is added to wishlist
     })
-
 })

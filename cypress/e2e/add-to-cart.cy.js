@@ -15,6 +15,42 @@ describe('Add To Cart Flow', () => {
         // and has addet to cart text
     })
 
+    it("Given I've added plate When I change its addons Then I can buy it with addons", () => {
+        //add plate to cart
+        //in cart
+        // add gloss
+        // add frame
+        // change size
+        // change count
+        //check if price is correct
+    })
 
+    it("Changing Country from pl to use", () => {
+        //add plate to cart
+        //in cart
+        // change country to poland
+        // price is in euro
+        // change country to usa
+        // price is in usd
+    })
 
+    it("Discount", () => {
+        //add plate to cart
+        //in cart click on discount
+        // insert  discount code
+        // price is lower
+    })
+
+    it("Remove from cart", () => {
+        //add plate to cart
+        // add difrent plate to cart
+        // go to cart
+        // remove 1st plate
+        // plate remove
+        // remove 2nd plate
+        //redirect to homepage
+    })
+
+    // trees counter is not checkedm
+    //not covered cant sell some products in some countires -example starwars in venezula
 })
