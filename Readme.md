@@ -21,3 +21,15 @@ Then you will reorginze test and map them to actual business requirements.
 4. Access to slack (send in mail)
 5. Access to fork of this repo (send in mail)
 6. Access to currents.dev (send in mail)
+
+
+## Workshop Author:
+
+Maciej Wyrodek
+* Blog: https://wyrodek.pl
+* Youtube: https://www.youtube.com/@ITeaMorning
+* Twitter: https://twitter.com/maciejwyrodek
+* Linkedin: https://www.linkedin.com/in/wyrodek/
+* Facebook:https://www.facebook.com/MaciejWyrodek.ITea/
+
+
