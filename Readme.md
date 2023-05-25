@@ -1,6 +1,6 @@
 # TEST MAPPING WORKSHOP
 
-This repo was created as part of the [Test automation Mapping Workshop at Automatyzcja Testów W Praktyce Conference](automatyzacja testowania w praktyce | Wydarzenie online dla testerów)
+This repo was created as part of the [Test automation Mapping Workshop at Automatyzcja Testów W Praktyce Conference](https://atwpraktyce.pl/)
 
 Note that this repo is not a complete solution, but rather a starting point for the workshop. 
 Full of delibratly broken code.
