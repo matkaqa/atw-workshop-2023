@@ -1,5 +1,5 @@
 describe('Add To Cart Flow', () => {
-    before(() => {
+    beforeEach(() => {
         cy.visit('');
     })
 
@@ -13,6 +13,8 @@ describe('Add To Cart Flow', () => {
         //click on
         //check if item is still in wishlist
         // and has addet to cart text
+ cy.log(Cypress.env("defualtFailureRate"))
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
     it("Given I've added plate When I change its addons Then I can buy it with addons", () => {
@@ -23,6 +25,8 @@ describe('Add To Cart Flow', () => {
         // change size
         // change count
         //check if price is correct
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
     it("Changing Country from pl to use", () => {
@@ -32,6 +36,8 @@ describe('Add To Cart Flow', () => {
         // price is in euro
         // change country to usa
         // price is in usd
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
     it("Discount", () => {
@@ -39,6 +45,8 @@ describe('Add To Cart Flow', () => {
         //in cart click on discount
         // insert  discount code
         // price is lower
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
     it("Remove from cart", () => {
@@ -49,6 +57,8 @@ describe('Add To Cart Flow', () => {
         // plate remove
         // remove 2nd plate
         //redirect to homepage
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
     // trees counter is not checkedm

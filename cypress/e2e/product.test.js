@@ -30,13 +30,18 @@ describe('PDP Test', () => {
         // check if product title is displate
         // check if collection name is displate
         // check if marketing info is displayed (return policy, tree, support , gift, magnet)
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
     it("Product added to wishlist", () => {
         // go to random product page
         // click on heart
         // check if product is added to wishlist
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
+
     it("Product check addons", () => {
         // go to random product page
         // change size
@@ -48,6 +53,8 @@ describe('PDP Test', () => {
         // add to cart
         // go to cart
         // all addons are properly applayed
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
 
@@ -57,6 +64,8 @@ describe('PDP Test', () => {
         // click add to cart
         // go to cart
         // check if magnets addet properly
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
     it.skip("Buy 3d magnet", () => {
@@ -66,6 +75,8 @@ describe('PDP Test', () => {
         // add to cart
         // go to cart
         // check if 3d magnet is added properly
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
     it("Acessories -> Gift card", () => {
@@ -75,5 +86,7 @@ describe('PDP Test', () => {
         // add some random text
         // change country to usa
         // add to cart
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 })

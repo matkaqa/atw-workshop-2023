@@ -1,6 +1,11 @@
 module.exports = {
-   projectId: "uYcTMn", // Project Id obtained from https://app.currents.dev or Sorry Cypress
-   // recordKey: "XXXXXXX", // Record key obtained from https://app.currents.dev, any value for Sorry Cypress
+    projectId: "uYcTMn", // Setup
+   //projectId: "2yrFzs", // kodyfikatorzy
+  // projectId: "O3tIhW", // bitowi
+   //projectId: "ETKTUI", // Pętlowi
+  // projectId: "km0hgO", // Debuig
+   //projectId: "6cxaEq", // Alfy
+    recordKey: "VzR36hacBJSLdHRP", // Record key obtained from https://app.currents.dev, any value for Sorry Cypress
     cloudServiceUrl: "https://cy.currents.dev", // Sorry Cypress users - the director service URL
 /*
     e2e: {

@@ -10,24 +10,32 @@ describe('Limited Editon', () => {
         // currently avaible should be on top
         // coming soon next
         // rest should be sold out
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
     it("Buy Sold out limited editon", () => {
 // go to sold out le page
         // click add to cart
         // button should be disabled
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
     it("Buy Coomming  limited editon", () => {
 // go to limietd edition list page
         // click on comming soon
         // button should be disabled
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
     it("Buy Coomming  limited editon - from pdp", () => {
         // go to comming soon le page by url
         // click on comming soon
         // button should be disabled
+
+        cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
     //not covered test cases  which are not automated
