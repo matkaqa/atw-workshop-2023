@@ -1,11 +1,12 @@
 module.exports = {
-    projectId: "uYcTMn", // Setup
-   //projectId: "2yrFzs", // kodyfikatorzy
-  // projectId: "O3tIhW", // bitowi
-   //projectId: "ETKTUI", // Pętlowi
-  // projectId: "km0hgO", // Debuig
-   //projectId: "6cxaEq", // Alfy
-    recordKey: "VzR36hacBJSLdHRP", // Record key obtained from https://app.currents.dev, any value for Sorry Cypress
+    projectId: "",// WYBIERZ SWÓJ PROJECT ID
+    // projectId: "uYcTMn", // Setup
+    // projectId: 'NcZCLA', // Binarni Buntownicy
+    // projectId: 'ZdUnrC', // Eleganccy Enkoderzy
+    // projectId: 'TShYsB', // Funkcyjni Fantastycy
+    // projectId: '2n1qD1', // Harmonijni Hackersi
+    //projectId: 'YWzcrt', // Kreatywni Kompilatorzy
+    recordKey: "", // Record key obtained from https://app.currents.dev, any value for Sorry Cypress DO NOT COMMIT TO REPO
     cloudServiceUrl: "https://cy.currents.dev", // Sorry Cypress users - the director service URL
 /*
     e2e: {

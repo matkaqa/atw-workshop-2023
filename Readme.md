@@ -33,3 +33,19 @@ Maciej Wyrodek
 * Facebook:https://www.facebook.com/MaciejWyrodek.ITea/
 
 
+## How to run tests
+
+first you need to install all dependencies
+```npm install```
+
+then you can run tests
+```npm test``` this will run all tests in headless mode
+
+or you can run tests in browser
+```npm run cy:open``` this will open cypress interface where you can run tests in browser
+
+running test with currents
+```npm currents:local``` this will run test localy but will raport results to currents.dev 
+**Important** you will need to change ci-build-id run-team-test3 in package.json to after each run
+
+

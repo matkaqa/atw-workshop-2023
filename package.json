@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run",
+    "cy:open": "npx cypress open",
     "test:ci": "npx cypress-cloud",
-    "setup": "npx cypress-cloud run --record --parallel --browser chrome  --ci-build-id run-team-test"
+    "currents:local": "npx cypress-cloud run --record --parallel --browser chrome  --ci-build-id run-team-test11"
   },
   "repository": {
     "type": "git",
