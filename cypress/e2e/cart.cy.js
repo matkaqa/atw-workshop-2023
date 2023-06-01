@@ -1,23 +1,25 @@
-describe('Add To Cart Flow', () => {
+describe('Add To Cart Flow ', () => {
     beforeEach(() => {
         cy.visit('');
     })
 
-    it("", () => {
+    // it.skip("should allow to add one item to cart", () => {
+    it("Adding single item to cart should be allowed", () => {
 
     })
 
     it("Adding to cart from wishlist shoudnt remove item from wishlist", () => {
-      //add something to wishlist
+        //add something to wishlist
         //go to wishlist
         //click on
         //check if item is still in wishlist
         // and has addet to cart text
- cy.log(Cypress.env("defualtFailureRate"))
+        cy.log(Cypress.env("defualtFailureRate"))
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Given I've added plate When I change its addons Then I can buy it with addons", () => {
+    // it("Given I've added plate When I change its addons Then I can buy it with addons", () => {
+    it("Changing addons should be applied in checkout", () => {
         //add plate to cart
         //in cart
         // add gloss
@@ -29,7 +31,7 @@ describe('Add To Cart Flow', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Changing Country from pl to use", () => {
+    it("Changing country from pl to us should change currency", () => {
         //add plate to cart
         //in cart
         // change country to poland
@@ -40,7 +42,7 @@ describe('Add To Cart Flow', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Discount", () => {
+    it("Adding discount should lower the price", () => {
         //add plate to cart
         //in cart click on discount
         // insert  discount code
@@ -49,7 +51,7 @@ describe('Add To Cart Flow', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Remove from cart", () => {
+    it("Remove from cart should be allowed", () => {
         //add plate to cart
         // add difrent plate to cart
         // go to cart

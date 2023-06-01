@@ -1,43 +1,34 @@
-describe('Admin', () => {
+describe('Admin panel actions ', () => {
   before(() => {
     cy.visit('');
   })
 
-  it("DMCA", () => {
-//go to admin
+  it("Marking artwork with DMCA should remove artwork from shop", () => {
+    //go to admin
     // select artis artwork
     // remove artwork and mark it as DMCA violation
 
     cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
   })
 
-  it("User", () => {
-//go to admin
+  it("Reseting user password should allow user to login with new password", () => {
+    //go to admin
     // reset user password
     // check if user is able to login with new password
 
     cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
   })
 
-  it("Artist", () => {
-//go to admin
+  it("Upgrading user account to artist should be allowed", () => {
+    //go to admin
     // Select user account
     // upgrade it to artist
 
     cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
   })
 
-  it("Artist approve work", () => {
-//as artist upload work
-    // go to admin as Validator
-    // Select artwork
-    // approve artwork
-
-    cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
-  })
-
-  it("Brand", () => {
-   //go to admin
+  it("Adding and publishing brand should make it available for users", () => {
+    //go to admin
     //create brand
     //add brand logo and layout
     // add collection
